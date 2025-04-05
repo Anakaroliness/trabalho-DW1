@@ -1,0 +1,50 @@
+.contato {
+    padding: 40px;
+    background-color: #fff8dc;
+  }
+  
+  .contato h2 {
+    text-align: center;
+  }
+  
+  .contato form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .contato input,
+  .contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .contato button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .contato p {
+    margin-top: 10px;
+  }
+  
+  .erro {
+    color: red;
+  }
+  
+  .sucesso {
+    color: green;
+  }
+  
+  @media (max-width: 600px) {
+    .contato {
+      padding: 20px;
+    }
+  }
+  

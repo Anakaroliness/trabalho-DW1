@@ -1,0 +1,78 @@
+.servicos {
+    padding: 40px;
+    background-color: #f0f8ff;
+  }
+  
+  .servicos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .servicos input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .servicos .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .servicos button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffa500;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .servicos button:hover {
+    background-color: #ff8c00;
+  }
+  
+  .servicos ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .servicos li {
+    padding: 12px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+  }
+  
+  /* 🔽 Responsivo para celular */
+  @media (max-width: 600px) {
+    .servicos {
+      padding: 20px;
+    }
+  
+    .servicos input {
+      width: 100%;
+    }
+  
+    .servicos .botoes {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .servicos button {
+      width: 100%;
+    }
+  }
+  
